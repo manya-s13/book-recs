@@ -1,0 +1,164 @@
+print(''' Welcome to Good Reads . This is a Platform which will recommend you the books you should read .
+
+    Please select the genre of the book you prefer to read :
+
+    1 : Romance
+    2 : Mystery
+    3 : Fantasy
+    4 : Science Fiction
+    5 : Thriller
+    6 : Self Help
+    7 : Biography
+    8 : Non Fiction 
+    ''')
+
+genre = int(input())
+
+if(genre==1):
+    print('''These are some Romantic books you may like . 
+            
+            1: Pride and Prejudice
+            2: Twilight
+            3: Beautiful Disaster
+            4: Outlander
+            5: New Moon 
+            6: Just the Sexiest Man Alive
+            7: Something About You
+            8: Practice Makes Perfect
+            9: Devil in Winter
+            10: A Lot like Love ''')
+
+    description = int(input("Please enter the Serial Number of the book to know more : \n"))
+
+    if(description==1):
+        print(''' \nPride and Prejudice is an 1813 novel of manners by Jane Austen. 
+        The novel follows the character development of Elizabeth Bennet, the dynamic protagonist of the book
+        who learns about the repercussions of hasty judgments and comes to appreciate the
+        difference between superficial goodness and actual goodness.
+
+        Rating : 7.8/10 
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Pride-Prejudice-Jane-Austen/dp/8172344503''') 
+
+    if(description==2):
+        print(''' \nTwilight is a series of four fantasy romance novels, two companion novels, and one novella written by
+        American author Stephenie Meyer.
+        Released annually from 2005 through 2008, the four novels chart the later teen years of Bella Swan, a girl who moves to 
+        Forks, Washington, from Phoenix, Arizona and falls in love with a 104-year-old vampire named Edward Cullen. 
+
+        Rating : 3.6/5
+       
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Twilight-Book-Saga/dp/1904233651/ref=sr_1_3?hvadid=82601150794796&hvbmt=bp&hvdev=c&hvqmt=p&keywords=twilight+novel+series&qid=1670955582&sr=8-3''')
+
+
+    if(description==3):
+        print(''' \nBeautiful Disaster is a new adult novel by American author Jamie McGuire.It appeared first on the New York 
+        Times Best Seller list as a self-published novel in 2012.[2] Beautiful Disaster was originally self-published in May 
+        2011, then acquired by Atria Books of Simon & Schuster and re-released in August 2012.[3] It has been translated into 
+        over fifty languages worldwide.
+
+        Rating : 4/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Beautiful-Disaster-Novel/dp/1476712042''') 
+
+
+    if(description==4):
+        print(''' \nOutlander (published in the United Kingdom as Cross Stitch) is a historical fantasy novel by Diana Gabaldon 
+        first published in 1991 Initially set around the time of the Second World War, it focuses on nurse Claire Beauchamp,  
+        who travels through time to 18th-century Scotland where she finds adventure and romance .
+        
+        Rating : 4.2/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Outlander-Novel-Diana-Gabaldon/dp/0440212561/ref=sr_1_4?adgrpid=1209463300710946&hvadid=75591590321856&hvbmt=be&hvdev=c&hvlocphy=156759&hvnetw=o&hvqmt=e&hvtargid=kwd-75591847164687%3Aloc-90&keywords=outlander+novel+amazon&qid=1670956721&sr=8-4''') 
+    
+
+    if(description==5):
+        print(''' \nNew Moon is a 2006 romantic fantasy novel by author Stephenie Meyer, and is the second novel in the Twilight
+        series. 
+        The novel continues the story of Bella Swan and vampire Edward Cullen's relationship .
+
+        Rating : 3.6/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.com/Moon-Twilight-Saga-Stephenie-Meyer/dp/0316327786''') 
+
+    if(description==6):
+        print(''' \nNew York Times bestselling author Julie James's debut novel—a dazzling romance about one of Hollywood's 
+        biggest movie stars and the woman who refuses to let him capture her heart .
+
+        Rating : 3.9/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Just-Sexiest-Alive-Julie-James/dp/B0044KMTQ0''') 
+
+    if(description==7):
+        print(''' \nThere's something about Julie James...
+Staying overnight in a luxury hotel, Assistant U.S. Attorney Cameron Lynde overhears a high-profile murder involving a U.S. 
+Senator. Special Agent Jack Pallas is assigned to the investigation-the same Jack Pallas who still blames her for nearly ruining
+his career three years ago. Now the pair will have to put their rocky past behind them, focus on the case at hand-and smother 
+the flame of their sizzling-hot sexual tension.
+
+        Rating : 3.9/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+     
+            https://www.amazon.com/Something-About-You-Attorney-Book-ebook/dp/B0030DHPAM/ref=sr_1_2?adid=082VK13VJJCZTQYGWWCZ&campaign=211041&creative=374001&keywords=Something+About+You&qid=1670957711&s=books&sr=1-2''')
+               
+
+    if(description==8):
+        print(''' \nPractice Makes Perfect is the second book in the Larkford Series, which follows the trials and tribulations
+        of a group of doctors running a village GP practice.
+
+
+        Rating : 3.9/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Practice-Makes-Perfect-English-Conversation/dp/1259643271''')   
+        
+        
+    if(description==9):
+        print(''' \nDevil in Winter is a beautiful novel written by the famous author Lisa Kleypas.
+        The book is perfect for those who wants to read historical romance, romance books The main character of the story are
+        Evangeline "Evie" Jenner, Sebastian, Lord St. Vincent. The book was first published in February 28th 2006 and the 
+        latest edition of the book was published in February 28th 2006 which eliminates all the known issues and printing 
+        errors.
+
+        Rating : 4.2/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Devil-Winter-Number-Wallflower/dp/0749942908/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=''') 
+        
+        
+    if(description==10):
+        print(''' \nAn FBI agent and an heiress have to get up close and personal on an undercover assignment in this 
+        thrilling romance from the author of The Thing About Love .
+
+        Rating : 4.4/5
+        
+        ''')
+
+        print('''You can Purchase this book from the below link:
+            https://www.amazon.in/Lot-Like-Love-Attorney-Novel/dp/0425240169/ref=sr_1_1?hvadid=82188666841857&hvbmt=be&hvdev=c&hvqmt=e&keywords=a+lot+like+love+novel&qid=1670959211&sr=8-1''')           
+               
